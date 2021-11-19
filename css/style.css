@@ -236,7 +236,7 @@
     }
 
     .container .row .card:hover .card-body .konten .list-1{
-        transform: translateY(-260px);
+        transform: translateY(-220px);
         opacity: 1;
     }
 
@@ -253,12 +253,12 @@
     }
 
     .container .row .card:hover .card-body .konten .list-3{
-        transform: translateY(-280px);
+        transform: translateY(-250px);
         opacity: 1;
     }
 
     .container .row .card:hover .card-body .konten .list-4{
-        transform: translateY(-270px);
+        transform: translateY(-220px);
         opacity: 1;
     }
 
