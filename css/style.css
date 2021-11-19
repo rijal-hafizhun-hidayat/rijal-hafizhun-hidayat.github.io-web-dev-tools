@@ -1,0 +1,319 @@
+@media (min-width: 992px) {
+    body{
+        font-family: 'Shippori Antique', sans-serif;
+        background-attachment: fixed;
+        background-color: #b3b3b3;
+    }
+
+    .container .row .card{
+        width: 18rem;
+        height: 25rem;
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+        overflow: hidden;
+        margin-left: 50px;
+        margin-top: 30px;
+        box-shadow: 0 0 30px 0 rgba(100, 100, 100, 0.26);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, .15);  
+    }
+
+    .container .row .card .card-body{
+        transform: translateZ(40px);
+        transition: .3s;
+    }
+
+    .container .row .card .card-body h4{
+        margin-top: 100px;
+    }
+    
+    .container .row .card .card-body .text-1{
+        margin-top: 60px;
+    }
+
+    .container .row .card .card-body .text-2{
+        margin-top: 80px;
+    }
+
+    /* .container .row .card .card-body .gambar img{
+        width: 220px;
+        height: 220px;
+    } */
+
+    .container .row .card .card-body .gambar{
+        transform: translateY(0px);
+        opacity: 1;
+        margin-top: 30px;
+        transition: .5s;
+    }
+
+    .container .row .card:hover .card-body .gambar{
+        transform: translateY(-200px);
+        opacity: 0;   
+    }
+
+    .container .row .card .card-body .gambar .img-1{
+        width: 220px;
+    }
+
+    /* .container .row .card .card-body .konten{
+        transform: translateZ(40px);
+    } */
+
+    .container .row .card .card-body .konten .list ul{
+        list-style-type: none;
+    }
+
+    .container .row .card .card-body .konten .list{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .container .row .card:hover .card-body .konten .list{
+        transform: translateY(-230px);
+        
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list-1{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .container .row .card:hover .card-body .konten .list-1{
+        transform: translateY(-230px);
+        opacity: 1;
+    }
+
+    .container .row .card:hover .card-body .konten .list-3{
+        transform: translateY(-280px);
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list ul li{
+        margin-bottom: 30px;
+    }
+
+    .container .row .card .card-body .konten .list ul li a{
+        text-decoration: none;
+        margin-right: 30px;
+        background-color: #999999;
+        padding: 7px 20px;
+        border-radius: 10px;
+        color: white;
+        transition: .3s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .container .row .card .card-body .konten .list ul li a:hover{
+        background-color: black;
+        color: white;
+        padding: 10px 23px;
+    }
+
+    .container .footer{
+        margin-top: 50px;
+    }
+
+    .container .footer p{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .container .footer p .icon-1{
+        color: red;
+    }
+
+    .container .footer p .icon-2{
+        color: #ff9900;
+    }
+
+    .container .footer .list-icon{
+        font-size: 40px;
+    }
+
+    .container .footer .list-icon a span i{
+        transition: .3s;
+        transform: translateY(0px);
+    }
+
+    .container .footer .list-icon a span i:hover{
+        transform: translateY(-20px);
+    }
+
+    .container .footer .list-icon i{
+        margin-right: 30px;
+    }
+
+    .container .footer .list-icon span{
+        color: #404040;
+    }
+}
+@media (max-width: 576px) {
+    body{
+        font-family: 'Shippori Antique', sans-serif;
+        background-attachment: fixed;
+        background-color: #b3b3b3;
+    }
+
+    .container .row .header .text{
+        margin-bottom: 30px;
+    }
+
+    .container .row .card{
+        height: 25rem;
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+        overflow: hidden;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, .15);
+    }
+
+    .container .row .card .card-body{
+        transform: translateZ(40px);
+        transition: .3s;
+    }
+
+    .container .row .card .card-body h4{
+        margin-top: 100px;
+    }
+
+    .container .row .card .card-body .text-1{
+        margin-top: 40px;
+    }
+
+    .container .row .card .card-body .text-2{
+        margin-top: 80px;
+    }
+
+    .container .row .card .card-body .gambar{
+        transform: translateY(0px);
+        opacity: 1;
+        margin-top: 30px;
+        transition: .5s;
+    }
+
+    .container .row .card:hover .card-body .gambar{
+        transform: translateY(-210px);
+        opacity: 0;
+    }
+
+    .container .row .card .card-body .gambar .img-1{
+        width: 200px;
+    }
+
+    .container .row .card .card-body .konten .list ul{
+        list-style-type: none;
+    }
+
+    .container .row .card .card-body .konten .list{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .container .row .card:hover .card-body .konten .list{
+        transform: translateY(-250px);
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list-1{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .container .row .card:hover .card-body .konten .list-1{
+        transform: translateY(-300px);
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list-2{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .container .row .card:hover .card-body .konten .list-2{
+        transform: translateY(-270px);
+        opacity: 1;
+    }
+
+    .container .row .card:hover .card-body .konten .list-3{
+        transform: translateY(-280px);
+        opacity: 1;
+    }
+
+    .container .row .card:hover .card-body .konten .list-4{
+        transform: translateY(-270px);
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list ul li{
+        margin-bottom: 30px;
+    }
+
+    .container .row .card .card-body .konten .list ul li a{
+        text-decoration: none;
+        margin-right: 20px;
+        background-color: #b3b3b3;
+        padding: 7px 20px;
+        border-radius: 10px;
+        color: white;
+        transition: .3s;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .container .row .card .card-body .konten .list ul li a:hover{
+        background-color: black;
+        color: white;
+        padding: 10px 23px;
+    }
+
+    .container .footer{
+        margin-top: 50px;
+    }
+
+    .container .footer p{
+        margin-top: 20px;
+    }
+
+    .container .footer p .icon-1{
+        color: red;
+    }
+
+    .container .footer p .icon-2{
+        color: #ff9900;
+    }
+
+    .container .footer .list-icon{
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    .container .footer .list-icon a span i{
+        transition: .3s;
+        transform: translateY(0px);
+    }
+
+    .container .footer .list-icon a span i:hover{
+        transform: translateY(-20px);
+    }
+
+    .container .footer .list-icon i{
+        margin-right: 30px;
+    }
+
+    .container .footer .list-icon span{
+        color: #404040;
+    }
+}
