@@ -192,6 +192,10 @@
         margin-top: 80px;
     }
 
+    .container .row .card .card-body .gambar img{
+        width: 300px;
+    }
+
     .container .row .card .card-body .gambar{
         transform: translateY(0px);
         opacity: 1;
@@ -232,7 +236,7 @@
     }
 
     .container .row .card:hover .card-body .konten .list-1{
-        transform: translateY(-300px);
+        transform: translateY(-260px);
         opacity: 1;
     }
 
