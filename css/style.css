@@ -192,8 +192,12 @@
         margin-top: 80px;
     }
 
+    .container .row .card .card-body .text-2{
+        margin-top: 100px;
+    }
+
     .container .row .card .card-body .gambar img{
-        width: 300px;
+        width: 200px;
     }
 
     .container .row .card .card-body .gambar{
@@ -208,9 +212,9 @@
         opacity: 0;
     }
 
-    .container .row .card .card-body .gambar .img-1{
+    /* .container .row .card .card-body .gambar .img-1{
         width: 200px;
-    }
+    } */
 
     .container .row .card .card-body .konten .list ul{
         list-style-type: none;
@@ -224,10 +228,10 @@
     }
 
     .container .row .card:hover .card-body .konten .list{
-        transform: translateY(-250px);
+        transform: translateY(-200px);
         opacity: 1;
     }
-
+    
     .container .row .card .card-body .konten .list-1{
         transform: translateY(320px);
         transition: .5s;
@@ -236,31 +240,31 @@
     }
 
     .container .row .card:hover .card-body .konten .list-1{
-        transform: translateY(-220px);
-        opacity: 1;
-    }
-
-    .container .row .card .card-body .konten .list-2{
-        transform: translateY(320px);
-        transition: .5s;
-        opacity: 0;
-        
-    }
-
-    .container .row .card:hover .card-body .konten .list-2{
-        transform: translateY(-270px);
-        opacity: 1;
-    }
-
-    .container .row .card:hover .card-body .konten .list-3{
         transform: translateY(-250px);
         opacity: 1;
     }
 
-    .container .row .card:hover .card-body .konten .list-4{
+    /* .container .row .card .card-body .konten .list-2{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    } */
+
+    /* .container .row .card:hover .card-body .konten .list-2{
+        transform: translateY(-270px);
+        opacity: 1;
+    } */
+
+    /* .container .row .card:hover .card-body .konten .list-3{
+        transform: translateY(-250px);
+        opacity: 1;
+    } */
+
+    /* .container .row .card:hover .card-body .konten .list-4{
         transform: translateY(-220px);
         opacity: 1;
-    }
+    } */
 
     .container .row .card .card-body .konten .list ul li{
         margin-bottom: 30px;
