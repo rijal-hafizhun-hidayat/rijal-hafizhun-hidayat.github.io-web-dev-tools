@@ -85,12 +85,29 @@
     }
 
     .container .row .card:hover .card-body .konten .list-1{
-        transform: translateY(-230px);
+        transform: translateY(-280px);
         opacity: 1;
     }
 
+    .container .row .card .card-body .konten .list-2{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+    }
+
+    .container .row .card:hover .card-body .konten .list-2{
+        transform: translateY(-200px);
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list-3{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+    }
+
     .container .row .card:hover .card-body .konten .list-3{
-        transform: translateY(-280px);
+        transform: translateY(-200px);
         opacity: 1;
     }
 
