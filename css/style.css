@@ -28,11 +28,15 @@
     }
     
     .container .row .card .card-body .text-1{
-        margin-top: 60px;
+        margin-top: 35px;
     }
 
     .container .row .card .card-body .text-2{
         margin-top: 80px;
+    }
+
+    .container .row .card .card-body .text-3{
+        margin-top: 70px;
     }
 
     /* .container .row .card .card-body .gambar img{
@@ -108,6 +112,18 @@
 
     .container .row .card:hover .card-body .konten .list-3{
         transform: translateY(-200px);
+        opacity: 1;
+    }
+
+    .container .row .card .card-body .konten .list-4{
+        transform: translateY(320px);
+        transition: .5s;
+        opacity: 0;
+        
+    }
+
+    .container .row .card:hover .card-body .konten .list-4{
+        transform: translateY(-250px);
         opacity: 1;
     }
 
